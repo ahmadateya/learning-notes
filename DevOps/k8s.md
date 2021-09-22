@@ -11,4 +11,5 @@
 	* NodePort: Worker Node port on which we can access our application.
 <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-09-22%2008-41-08.jpg" width="300" height="300">
 
+* [k8s cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 * 
