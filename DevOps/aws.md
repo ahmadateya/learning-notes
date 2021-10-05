@@ -1,0 +1,2 @@
+# Some notes about AWS
+
