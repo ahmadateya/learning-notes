@@ -15,7 +15,11 @@
 	* in most cases you will use the rolling 
 
 
-
+* To delete PV and PVC
+	1. `kubectl patch pvc PVC_NAME -p '{"metadata":{"finalizers": null}}' --type=merge`
+	2. `kubectl delete -f <file.yaml>`
+	3. `kubectl delete pvc <pvc-name>` 
+	* if the pvc stucks at `terminating` status you have to manually edit the pvc object and and remove `finalizers` object [link](https://github.com/kubernetes/kubernetes/issues/69697#issuecomment-447201890)
 
 
 
