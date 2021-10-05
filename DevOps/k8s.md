@@ -9,17 +9,18 @@
 
 * [k8s cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 * [What is a Kubernetes Deployment?](https://www.vmware.com/topics/glossary/content/kubernetes-deployment#:~:text=A%20Kubernetes%20Deployment%20is%20used,earlier%20deployment%20version%20if%20necessary.)
-<img src="https://github.com/ahmadateya/learning-notes/blob/main/images/kubernetes%20arch.png" width="300" height="300">
+<img src="https://github.com/ahmafinalizerdateya/learning-notes/blob/main/images/kubernetes%20arch.png" width="300" height="300">
 
 * Deployment Strategies
 	* in most cases you will use the rolling 
 
-
 * To delete PV and PVC
-	1. `kubectl patch pvc PVC_NAME -p '{"metadata":{"finalizers": null}}' --type=merge`
+	1. `kubectl patch pvc <pvc-name> -p '{"metadata":{"finalizers": null}}' --type=merge`
 	2. `kubectl delete -f <file.yaml>`
 	3. `kubectl delete pvc <pvc-name>` 
 	* if the pvc stucks at `terminating` status you have to manually edit the pvc object and and remove `finalizers` object [link](https://github.com/kubernetes/kubernetes/issues/69697#issuecomment-447201890)
+		* `kubectl edit pvc <pvc-name>` will open it in terminal and delete the `finalizers` object
+	
 
 
 
