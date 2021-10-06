@@ -1,6 +1,7 @@
 # Kubernetes General Notes
 * In general the POD in the node should have one container, and its not recommended to have more than one except if you have a helper container inside the pod and it called `sidecar container`
 
+* there are 3 types of services in k8s you can recap them quickly and Ingress in this [video](https://www.youtube.com/watch?v=NPFbYpb0I7w&ab_channel=IBMTechnology) 
 * creating a k8s NodePort service the strurcture will be like this
 	* port: Port on node service listens in Kubernetes cluster internally
 	* targetPort: We define container port here on which our application is running.
