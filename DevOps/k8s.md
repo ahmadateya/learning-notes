@@ -29,6 +29,6 @@
 
 
 
-
-
+## Resources
+* https://github.com/kubernetes-sigs/external-dns/blob/master/docs/faq.md
 ### most of this notes came from my study over the [AWS EKS Kubernetes-Masterclass | DevOps, Microservices](https://www.udemy.com/course/aws-eks-kubernetes-masterclass-devops-microservices/) / Kuberbnetes Fundamentals
