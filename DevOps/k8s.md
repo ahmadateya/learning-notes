@@ -31,4 +31,7 @@
 
 ## Resources
 * https://github.com/kubernetes-sigs/external-dns/blob/master/docs/faq.md
-### most of this notes came from my study over the [AWS EKS Kubernetes-Masterclass | DevOps, Microservices](https://www.udemy.com/course/aws-eks-kubernetes-masterclass-devops-microservices/) / Kuberbnetes Fundamentals
+* https://aws.amazon.com/premiumsupport/knowledge-center/create-alb-auto-register/
+* https://medium.com/@houseparty/introducing-targetgroupcontroller-a-way-to-more-efficiently-run-your-kubernetes-services-27b3dbc84e50
+* [AWS EKS Kubernetes-Masterclass | DevOps, Microservices](https://www.udemy.com/course/aws-eks-kubernetes-masterclass-devops-microservices/)  / Kuberbnetes Fundamentals
+
