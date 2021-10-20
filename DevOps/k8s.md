@@ -25,7 +25,7 @@
 * [What is Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
 <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-10-10%2010-45-44.png" width="550" height="250">
 
-
+* To access and get inside a POD use `kubectl exec --stdin --tty <pod-name> -- /bin/bash`
 
 
 
