@@ -5,3 +5,5 @@ I'm not a good memorizer and don't get the things until doing it myself or writi
 The idea is instead of writing in random Google Docs and sheets for my studying notes, I can gather them in one place and one format that is more readable, searchable, and cool!
 
 this is my notebook for taking notes on any learning material.
+
+* I write my notes inside the GitHub window to edit the files so the commit messages is meaningless!
