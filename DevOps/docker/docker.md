@@ -20,3 +20,7 @@
 ## Resources for backing up the DB
 * [Backup/Restore a dockerized PostgreSQL database](https://stackoverflow.com/questions/24718706/backup-restore-a-dockerized-postgresql-database).
 * [How to copy a file from remote server to local machine? [closed]](https://stackoverflow.com/questions/28869004/how-to-copy-a-file-from-remote-server-to-local-machine).
+
+
+## Resourses for Docker Compose Files
+* [Awesome Docker compose](https://github.com/docker/awesome-compose/tree/master/nginx-golang-postgres).
