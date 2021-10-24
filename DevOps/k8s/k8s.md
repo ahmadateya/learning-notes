@@ -1,6 +1,8 @@
 # Kubernetes General Notes
 * In general the POD in the node should have one container, and its not recommended to have more than one except if you have a helper container inside the pod and it called `sidecar container`
 
+
+* [kubectl apply vs kubectl create?](https://stackoverflow.com/questions/47369351/kubectl-apply-vs-kubectl-create).
 * there are 3 types of services in k8s you can recap them quickly and Ingress in this [video](https://www.youtube.com/watch?v=NPFbYpb0I7w&ab_channel=IBMTechnology) 
 * creating a k8s NodePort service the strurcture will be like this
 	* port: Port on node service listens in Kubernetes cluster internally
@@ -26,8 +28,7 @@
 <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-10-10%2010-45-44.png" width="550" height="250">
 
 * To access and get inside a POD use `kubectl exec --stdin --tty <pod-name> /bin/bash`
-
-
+* Unlike deployments and services in Kubernetes, you can't change the same Job configuration file and reapply it at once. When you make changes in the Job configuration file, you must delete the previous Job from the cluster before you apply it.
 
 ## Resources
 * https://github.com/kubernetes-sigs/external-dns/blob/master/docs/faq.md
