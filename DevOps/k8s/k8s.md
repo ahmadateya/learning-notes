@@ -32,6 +32,7 @@
 
 * Notes About CronJobs [here](https://github.com/ahmadateya/learning-notes/blob/main/DevOps/k8s/cronjobs.md).
 * Faster way to switch between clusters and namespaces in kubectl [kubectx](https://github.com/ahmetb/kubectx/).
+	* you may need to install [krew](https://krew.sigs.k8s.io/docs/user-guide/setup/install/). 
 
 
 ## Resources
