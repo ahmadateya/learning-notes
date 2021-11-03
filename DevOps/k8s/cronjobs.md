@@ -4,6 +4,6 @@
 * Create a CronJob in k8s by following this [tutorial](https://medium.com/google-cloud/kubernetes-cron-jobs-455fdc32e81a). 
 * CronJobs Should be idempotent read [this](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/#cron-job-limitations).
 * CronJobs creates a pod in every time it execute.
-* [CronJobs in Kubernetes - connect to existing Pod, execute script](https://stackoverflow.com/questions/41192053/cron-jobs-in-kubernetes-connect-to-existing-pod-execute-script).
+* Important thread for understanding CronJobs execution [CronJobs in Kubernetes - connect to existing Pod, execute script](https://stackoverflow.com/questions/41192053/cron-jobs-in-kubernetes-connect-to-existing-pod-execute-script).
 
 * Nice Alternative to k8s cronJob (but not tested) [here](https://javicastilla.com/2020/08/21/laravel-docker-cron-jobs/).
