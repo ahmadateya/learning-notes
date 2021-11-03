@@ -30,6 +30,9 @@
 * To access and get inside a POD use `kubectl exec --stdin --tty <pod-name> /bin/bash`
 * Unlike deployments and services in Kubernetes, you can't change the same Job configuration file and reapply it at once. When you make changes in the Job configuration file, you must delete the previous Job from the cluster before you apply it.
 
+* Creating a CronJob in k8s follow this [tutorial](https://medium.com/google-cloud/kubernetes-cron-jobs-455fdc32e81a). 
+
+
 ## Resources
 * https://github.com/kubernetes-sigs/external-dns/blob/master/docs/faq.md
 * https://aws.amazon.com/premiumsupport/knowledge-center/create-alb-auto-register/
