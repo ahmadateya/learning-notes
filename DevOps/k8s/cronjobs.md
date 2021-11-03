@@ -6,4 +6,6 @@
 * CronJobs creates a pod in every time it execute.
 * Important thread for understanding CronJobs execution [CronJobs in Kubernetes - connect to existing Pod, execute script](https://stackoverflow.com/questions/41192053/cron-jobs-in-kubernetes-connect-to-existing-pod-execute-script).
 
-* Nice Alternative to k8s cronJob (but not tested) [here](https://javicastilla.com/2020/08/21/laravel-docker-cron-jobs/).
+* Alternatives to run cronJob without the k8s CronJob resource (but not tested) 
+	* [Cron in a Pod](https://medium.com/airwalk/cron-in-a-pod-6fdf6676c623).
+	* [Laravel: Docker + Cron Jobs](https://javicastilla.com/2020/08/21/laravel-docker-cron-jobs/).
