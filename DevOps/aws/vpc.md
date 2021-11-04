@@ -33,4 +33,5 @@
 
 
 ## Resources:
-* [VPC Basics - Small Series](https://cloudcasts.io/course/vpc-basics)
+* [VPC Basics - Small Series](https://cloudcasts.io/course/vpc-basics).
+* [AWS VPC: Subnets and Routing](https://cloudacademy.com/course/aws-virtual-private-cloud-subnets-and-routing/introduction-95/).
