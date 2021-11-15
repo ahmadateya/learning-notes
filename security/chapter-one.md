@@ -40,7 +40,7 @@ Mechanisms is group of processes or operations.
 6. **Non-Repudiation** - protection against denial by one of the parties in a communication
 7. **Availability** – resource accessible and usable
 8. alternative definition for Security Service
-https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2001-14-36.png
+* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2001-14-36.png" width="550" height="300">
 
 ### Security Mechanisms
 1. **Encryption** The cryptographic transformation of data to produce ciphertext.
