@@ -1,6 +1,6 @@
 # General Notes From Chapter One
 
-https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2000-37-04.png
+<img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2000-37-04.png" width="500" height="300">
 
 ### Attacks Threatening Confidentiality
 * **Snooping** refers to unauthorized access to or interception of data.
@@ -18,8 +18,9 @@ https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%
 
 ### Active Vs. Passive Attacks
 In Active attack, an attacker tries to modify the content of the messages. Whereas in Passive attack, an attacker observes the messages, copy them and may use them for malicious purposes.
-https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2000-53-32.png
-https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2000-54-44.png
+
+* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2000-53-32.png" width="550" height="300">
+* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2000-54-44.png" width="550" height="300">
 
 ### Security Services and Mechanisms
 for every type of attacks there a service to prevent this attack (service is the concept), and for every service we may have one or more mechanisms to implement this service.
@@ -54,12 +55,4 @@ https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%
 8. **Notarization** The registration of data with a trusted third party that allows the later assurance of the accuracy of its characteristics such as content, origin, time and delivery.
 
 #### Example for relation between Services and Mechanisms
-https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2001-25-25.png
-
-
-
-
-
-
-
-
+<img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2001-25-25.png" width="550" height="300">
