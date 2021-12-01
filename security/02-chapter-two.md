@@ -33,8 +33,13 @@ If either type of attack succeeds in deducing the key, the effect is catastrophi
 	* like the **chosen plaintext** but even easier
 5. **chosen text** *{This is the least difficult problem}*
 	* select plaintext or ciphertext to encrypt/decrypt
-6. **unconditional security**
+
+**unconditional security**
 	* no matter how much computer power or time is available, the cipher cannot be broken since the ciphertext provides insufficient information to uniquely determine the corresponding plaintext 
+
+**computational security**
+	* given limited computing resources (e.g. time needed for calculations is greater than age of universe), the cipher cannot be broken 
+
 
 ### Brute-force Attack
 <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2003-43-26.png" width="500" height="300">
