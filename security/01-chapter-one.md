@@ -34,12 +34,11 @@ Mechanisms is group of processes or operations.
 	1. **peer-entity** authentication 
 	2. **data origin** authentication
 2. **Access Control** - prevention of the unauthorized use of a resource
-3. **Access Control** - prevention of the unauthorized use of a resource
-4. **Data Confidentiality** –protection of data from unauthorized disclosure
-5. **Data Integrity** - assurance that data received is as sent by an authorized entity
-6. **Non-Repudiation** - protection against denial by one of the parties in a communication
-7. **Availability** – resource accessible and usable
-8. alternative definition for Security Service
+3. **Data Confidentiality** –protection of data from unauthorized disclosure
+4. **Data Integrity** - assurance that data received is as sent by an authorized entity
+5. **Non-Repudiation** - protection against denial by one of the parties in a communication
+6. **Availability** – resource accessible and usable
+7. alternative definition for Security Service
 * <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2001-14-36.png" width="550" height="300">
 
 ### Security Mechanisms
