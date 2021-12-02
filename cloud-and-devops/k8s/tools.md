@@ -1,4 +1,4 @@
-# Some helpers Tools
+# Some helper Tools
 
 
 * Faster way to switch between clusters and namespaces in kubectl [kubectx](https://github.com/ahmetb/kubectx/) install it from [here](https://gist.github.com/argentinaluiz/a5dc8b1b58995bbbe98e37d9936ea436#install-kubectx-and-kubens).
