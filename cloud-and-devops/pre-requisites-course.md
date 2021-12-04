@@ -10,3 +10,7 @@
 
 * ### Reserved IP addresses in AWS subnets 
 	* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-12-04%2009-25-27.png" width="600" height="250">
+
+
+* ### Quick to use networks & subnets 
+	* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-12-04%2009-47-11.png" width="600" height="250">
