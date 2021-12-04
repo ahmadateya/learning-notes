@@ -14,7 +14,6 @@
 * ### Quick to use networks & subnets 
 	* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-12-04%2009-47-11.png" width="600" height="250">
 
-
 * ### The Ovelapping subnets
 	* its the subnets whose range of addresses include some of the same addresses.
 	* this can be done for example if you have network in the cloud and another one on prem.
@@ -24,3 +23,6 @@
 	* is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts.
 	* ### Port Address Translation (NAT)
 		* Private IP addresses are translated into the public IP address via Port numbers. PAT also uses IPv4 address but with port number.
+
+* ### Block Storage vs Object Storage
+	* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-12-04%2010-33-29.png" width="600" height="250">
