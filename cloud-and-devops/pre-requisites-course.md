@@ -19,3 +19,8 @@
 	* its the subnets whose range of addresses include some of the same addresses.
 	* this can be done for example if you have network in the cloud and another one on prem.
 	* you should avoid overlapping subnets
+
+* ### Network Address Translation (NAT)
+	* is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts.
+	* ### Port Address Translation (NAT)
+		* Private IP addresses are translated into the public IP address via Port numbers. PAT also uses IPv4 address but with port number.
