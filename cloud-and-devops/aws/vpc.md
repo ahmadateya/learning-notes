@@ -61,7 +61,11 @@
 			1. There is an hourly charge for NAT Gateways (for example in us-east-2, an hour charge of $0.45/hr - to calculate the monthly charge: $0.045*730 = $32.85/mo)
 			2. There is a charge per gigabyte transferred through a NAT Gateway (for example in us-east-2, a charge of $0.045/GB). This is in addition to regular bandwidth charges!
 
-
+### Private vs Public Subnets
+1. The server in the public subnet gets assigned a public IP address. The public internet can reach it, and it can reach the public internet.
+2. The server in the private subnet does not get a public IP and is not accessible from the outside internet (but it can reach the internet through the NAT Gateway).
+*  To access the private network
+	* we can SSH into the "public" server, which then allows us to SSH into the "private" server - we use the public server as a bastion (jump) host to gain access to the private network.
 
 ## Resources:
 * [VPC Basics - Small Series](https://cloudcasts.io/course/vpc-basics).
