@@ -1,7 +1,7 @@
 # Collection of Cloud Native products that I dealt with
 
 * K8s Eco System (or happend to me that I used it with k8s) 
-	* Flountd for logs aggregations
+	* fluentd for logs aggregations
 
 * AWS Products 
 	* EKS
