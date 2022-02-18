@@ -10,3 +10,12 @@
 
 - **/usr/local** vs. **/opt**
 	- <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-09-14%2014-41-33.png" width="500" height="200">
+
+
+
+
+
+
+
+## Resources 
+- [Tech with nana bootcamp](https://www.techworld-with-nana.com/devops-bootcamp)
