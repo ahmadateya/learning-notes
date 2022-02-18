@@ -16,12 +16,17 @@
 - **grep**
 	- Stands for: Globally Search for Regular Expression and Print out 
 	- Searches for a particular pattern of characters and displays all lines that contain that pattern  
+- **>**
+	-  the redirect operator
+	-  Takes the output from the previous command and sends it to a file that you give
+
 
 - You can separate between the commands by a semicolon
 
 
-
-
+- **Commands for HW**
+	- **lscpu** => all info about cpu
+	- **lsmem** => all info about memory
 
 ## Resources 
 - [Tech with nana bootcamp](https://www.techworld-with-nana.com/devops-bootcamp)
