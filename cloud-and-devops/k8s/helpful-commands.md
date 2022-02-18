@@ -5,3 +5,5 @@
 * Bash on a sp container in a pod
 	* `kubectl exec --stdin --tty <pod-name> --container <continer-name> bash` 
 	
+* List all containers in a pod
+	* `kubectl get pods <pod-name> -o jsonpath='{.spec.containers[*].name}'` 	
