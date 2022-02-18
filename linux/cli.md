@@ -1,4 +1,4 @@
-# My notes from learning and using Linux
+# My notes from learning and using Linux CLI
 
 - When you run as a normal user you will find the command line separator is **$**
 - When you run as a root user you will find the command line separator is **#**
@@ -17,3 +17,9 @@
 	- Stands for: Globally Search for Regular Expression and Print out 
 	- Searches for a particular pattern of characters and displays all lines that contain that pattern  
 
+
+
+
+
+## Resources 
+- [Tech with nana bootcamp](https://www.techworld-with-nana.com/devops-bootcamp)
