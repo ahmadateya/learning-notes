@@ -17,6 +17,8 @@
 	- Stands for: Globally Search for Regular Expression and Print out 
 	- Searches for a particular pattern of characters and displays all lines that contain that pattern  
 
+- You can separate between the commands by a semicolon
+
 
 
 
