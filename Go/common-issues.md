@@ -9,3 +9,5 @@
 - Including private packages in `go.mod`, especially when using Docker
 	- [go get for private repos in docker](https://divan.dev/posts/go_get_private/)
 	- [How to use Go Modules with Private Git repository](https://dev.to/gopher/how-to-use-go-modules-with-private-git-repository-53b4) the tutorial that I followed
+	- [Go Modules with Private GIT Repository](https://medium.com/swlh/go-modules-with-private-git-repository-3940b6835727)
+
