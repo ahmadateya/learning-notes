@@ -4,6 +4,7 @@
 - Forking a package introducing problems in the `go.mod` file and including this package in another project/package
 	- [How to fix parsing go.mod module declares its path as "x" but was required as "y"](https://stackoverflow.com/questions/61311436/how-to-fix-parsing-go-mod-module-declares-its-path-as-x-but-was-required-as-y)
 	- [Solving module declares its path as X but was required as Y](https://markcz.wordpress.com/2020/04/14/solving-module-declares-its-path-as-x-but-was-required-as-y/) this solution worked for me
+	- [Using forked package import in Go](https://stackoverflow.com/questions/14323872/using-forked-package-import-in-go)
 
 
 - Including private packages in `go.mod`, especially when using Docker
