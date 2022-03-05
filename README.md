@@ -6,4 +6,4 @@ The idea is instead of writing in random Google Docs and sheets for my studying 
 
 this is my notebook for taking notes on any learning material.
 
-* I write my notes inside the GitHub window to edit the files so the commit messages is meaningless!
+* I write my notes inside the GitHub window to edit the files so the commit messages are meaningless!
