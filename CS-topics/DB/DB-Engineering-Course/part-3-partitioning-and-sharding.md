@@ -5,7 +5,7 @@
 	- **Horizontal partitioning** involves putting different rows into different tables.
 	- **Vertical partitioning** involves creating tables with fewer columns and using additional tables to store the remaining columns. usually used with BLOBs or the huge size columns.
 	- Partitioning types
-		- <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/DBEngineering-image1.jpg" width="550" height="300">
+		- <img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/DBEngineering-image1.jpg" width="550" height="300">
 	- Sharding vs Partitioning
 		- sharding implies the data is spread across multiple computers while partitioning does not. **(you decide where to go)**
 		- Partitioning is about grouping subsets of data within a single database instance. **(DB decides where to go)**

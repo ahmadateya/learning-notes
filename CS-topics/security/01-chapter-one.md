@@ -1,6 +1,6 @@
 # General Notes From Chapter One
 
-<img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2000-37-04.png" width="500" height="300">
+<img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-11-16%2000-37-04.png" width="500" height="300">
 
 ### Attacks Threatening Confidentiality
 * **Snooping** refers to unauthorized access to or interception of data.
@@ -19,8 +19,8 @@
 ### Active Vs. Passive Attacks
 In Active attack, an attacker tries to modify the content of the messages. Whereas in Passive attack, an attacker observes the messages, copy them and may use them for malicious purposes.
 
-* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2000-53-32.png" width="550" height="300">
-* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2000-54-44.png" width="550" height="300">
+* <img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-11-16%2000-53-32.png" width="550" height="300">
+* <img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-11-16%2000-54-44.png" width="550" height="300">
 
 ### Security Services and Mechanisms
 for every type of attacks there a service to prevent this attack (service is the concept), and for every service we may have one or more mechanisms to implement this service.
@@ -39,7 +39,7 @@ Mechanisms is group of processes or operations.
 5. **Non-Repudiation** - protection against denial by one of the parties in a communication
 6. **Availability** – resource accessible and usable
 7. alternative definition for Security Service
-* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2001-14-36.png" width="550" height="300">
+* <img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-11-16%2001-14-36.png" width="550" height="300">
 
 ### Security Mechanisms
 1. **Encryption** The cryptographic transformation of data to produce ciphertext.
@@ -54,4 +54,4 @@ Mechanisms is group of processes or operations.
 8. **Notarization** The registration of data with a trusted third party that allows the later assurance of the accuracy of its characteristics such as content, origin, time and delivery.
 
 #### Example for relation between Services and Mechanisms
-<img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2001-25-25.png" width="550" height="300">
+<img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-11-16%2001-25-25.png" width="550" height="300">

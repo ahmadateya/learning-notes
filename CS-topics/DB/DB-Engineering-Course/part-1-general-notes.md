@@ -26,10 +26,10 @@
 		- With this approach, you will never be have a problem with SQL injection
 		- Always limit your queries, don't make unbounded queries (queries without limit or paging ...etc)
 		- **Homomorphic Encryption**
-			- <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/DBEngineering-image2.png" width="550" height="300">
+			- <img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/DBEngineering-image2.png" width="550" height="300">
 
 
 - ### Isolation Levls
-	- <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/DBEngineering-image10.png" width="550" height="250">
+	- <img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/DBEngineering-image10.png" width="550" height="250">
 
 

@@ -42,7 +42,7 @@ If either type of attack succeeds in deducing the key, the effect is catastrophi
 
 
 ### Brute-force Attack
-<img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2003-43-26.png" width="500" height="300">
+<img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-11-16%2003-43-26.png" width="500" height="300">
 
 ### Additional Definitions
 * **unconditional security**
@@ -57,7 +57,7 @@ If either type of attack succeeds in deducing the key, the effect is catastrophi
 
 * **substitution Ciphers**
 1. **Caesar Cipher** *{This is the simplest monoalphabetic cipher}*
-	* <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-11-16%2003-56-26.png" width="600" height="200">
+	* <img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-11-16%2003-56-26.png" width="600" height="200">
 	* **Cryptanalysis of Caesar Cipher**
 		* only have 26 possible ciphers 
 		* could simply try each in turn 

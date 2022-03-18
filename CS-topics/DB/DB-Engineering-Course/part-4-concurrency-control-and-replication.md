@@ -12,7 +12,7 @@
 - ### DB Replication
 	- One master / multiple standby(follower) design
 	- Multiple masters / multiple followers (complex implementation)
-	- <img src="https://github.com/ahmadateya/learning-notes/blob/main/images/DBEngineering-image11.png" width="550" height="300">
+	- <img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/DBEngineering-image11.png" width="550" height="300">
 	- Pagination without offsets by passing the id itself makes a huge improvement to performance
 	- Connection pooling is good for decreasing the I/O headache
 

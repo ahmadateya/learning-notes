@@ -7,11 +7,11 @@
 	* port: Port on node service listens in Kubernetes cluster internally
 	* targetPort: We define container port here on which our application is running.
 	* NodePort: Worker Node port on which we can access our application.
-<img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-09-22%2008-41-08.jpg" width="350" height="300">
+<img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-09-22%2008-41-08.jpg" width="350" height="300">
 
 * [k8s cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 * [What is a Kubernetes Deployment?](https://www.vmware.com/topics/glossary/content/kubernetes-deployment#:~:text=A%20Kubernetes%20Deployment%20is%20used,earlier%20deployment%20version%20if%20necessary.)
-<img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-09-10%2011-00-24.png" width="400" height="300">
+<img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-09-10%2011-00-24.png" width="400" height="300">
 
 * Deployment Strategies
 	* in most cases you will use the rolling 
@@ -24,7 +24,7 @@
 		* `kubectl edit pvc <pvc-name>` will open it in terminal and delete the `finalizers` object
 	
 * [What is Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
-<img src="https://github.com/ahmadateya/learning-notes/blob/main/images/Screenshot%20from%202021-10-10%2010-45-44.png" width="550" height="250">
+<img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202021-10-10%2010-45-44.png" width="550" height="250">
 
 * To access and get inside a POD use `kubectl exec --stdin --tty <pod-name> bash`
 * Unlike deployments and services in Kubernetes, you can't change the same Job configuration file and reapply it at once. When you make changes in the Job configuration file, you must delete the previous Job from the cluster before you apply it.
