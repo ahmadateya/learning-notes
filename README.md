@@ -1,9 +1,13 @@
-## My Learning Notes 📓 
+# My Learning Notes :orange_book: 
 
-I'm not a good memorizer and don't get the things until doing it myself or writing notes about it if it's something theory or saving in some place to get back to it.
+I believe in this quote
+> To memorize something,it's best to write it down.
 
-The idea is instead of writing in random Google Docs and sheets for my studying notes, I can gather them in one place and one format that is more readable, searchable, and cool!
+So the idea is to write some learning notes to get back to it when you need it, and instead of writing in random Google Docs and sheets for my studying/reading notes, I can gather them in one place and one format that is more readable, searchable, and cool!
 
-this is my notebook for taking notes on any learning material.
+this is my notebook for my learning notes on any learning material.
 
-* I write my notes inside the GitHub window to edit the files so the commit messages are meaningless!
+* I write my notes inside the GitHub window to edit the files so the commit messages (most of the time) are meaningless!
+
+## Wishlist
+- start writing some blog posts about things I found useful
