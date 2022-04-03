@@ -14,3 +14,4 @@
 		- [Go Modules with Private GIT Repository](https://medium.com/swlh/go-modules-with-private-git-repository-3940b6835727)
 	
 
+- [Should I commit vendor directory with go mod?](https://stackoverflow.com/questions/60865004/should-i-commit-vendor-directory-with-go-mod)
