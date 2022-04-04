@@ -15,3 +15,8 @@
 	
 
 - [Should I commit vendor directory with go mod?](https://stackoverflow.com/questions/60865004/should-i-commit-vendor-directory-with-go-mod)
+- `go install`
+	- If there are replace or exclude directives in the module (you are tring to install), the correct installation method is to clone the source and install it.
+	- resources
+		- [go install github.com/dmacvicar/terraform-provider-libvirt@latest - shows error](https://stackoverflow.com/questions/69807151/go-install-github-com-dmacvicar-terraform-provider-libvirtlatest-shows-error)
+		- [no replace directive allowed for "go install" ?](https://groups.google.com/g/golang-nuts/c/igwFOH-fWqI?pli=1)
