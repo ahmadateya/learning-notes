@@ -20,3 +20,6 @@
 	- resources
 		- [go install github.com/dmacvicar/terraform-provider-libvirt@latest - shows error](https://stackoverflow.com/questions/69807151/go-install-github-com-dmacvicar-terraform-provider-libvirtlatest-shows-error)
 		- [no replace directive allowed for "go install" ?](https://groups.google.com/g/golang-nuts/c/igwFOH-fWqI?pli=1)
+
+
+- [panic: dial tcp 127.0.0.1:3306: connect: connection refused](https://stackoverflow.com/questions/57566060/panic-dial-tcp-127-0-0-13306-connect-connection-refused)
