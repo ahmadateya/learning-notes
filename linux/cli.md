@@ -19,14 +19,18 @@
 - **>**
 	-  the redirect operator
 	-  Takes the output from the previous command and sends it to a file that you give
-
-
 - You can separate between the commands by a semicolon
+- **stat** for files
+- **apropos**
+- **ls --full-time** list the files with human readable format
+
+
+- Files hard link & soft link (symlinks)
+	- **ln -s** for soft link (symlink)
+	- **ln** for hard link
 
 
 - **Commands for HW**
 	- **lscpu** => all info about cpu
 	- **lsmem** => all info about memory
 
-## Resources 
-- [Tech with nana bootcamp](https://www.techworld-with-nana.com/devops-bootcamp)
