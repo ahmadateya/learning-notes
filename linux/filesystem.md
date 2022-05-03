@@ -1,4 +1,4 @@
-# My notes from learning file system in Linux
+# My notes from learning filesystem in Linux
 
 ## File System Overview & File Structure
 - In linux Everything is a file (even commands, pictures, directories, devices (mouse, keyboard ...etc))
@@ -38,8 +38,8 @@
         - **-name** to search for a specific file name
           - **-iname** to search for a case-insensitive file name
           - **-name "f*"** wildcard search
-        - **-nmin [minute]** to search for files in the last [minute] minutes
-        - **mtime [time]** to search for files in the last [time]
+        - **-mmin [minute]** to search for files in the last [minute] minutes
+        - **mtime [days]** to search for files in the last [days]
         - **-type** to search for files with the type of file
         - **-perm [permission]** to search for files with the permission of file
           - <img src="https://github.com/ahmadateya/learning-notes/blob/main/assets/images/Screenshot%20from%202022-05-03%2006-35-48.png" width="400" height="200">
