@@ -1,6 +1,6 @@
 # My notes from learning and using vim
 
-- **There are 2 modes in vim
+- **There are 2 modes in vim**
     1. Default / Command mode 
     2. Insert mode
 

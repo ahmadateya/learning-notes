@@ -2,7 +2,7 @@
 
 - When you run as a normal user you will find the command line separator is **$**
 - When you run as a root user you will find the command line separator is **#**
-- **Pwd** => show you current directory
+- **Pwd** => show you current directory (Print Working Directory)
 - **~** => is the home directory
 - **/** => is the root directory
 - **history** [no. of commands] => to get the history of your commands
@@ -23,11 +23,6 @@
 - **stat** for files
 - **apropos**
 - **ls --full-time** list the files with human readable format
-
-
-- Files hard link & soft link (symlinks)
-	- **ln -s** for soft link (symlink)
-	- **ln** for hard link
 
 
 - **Commands for HW**
