@@ -1,4 +1,4 @@
-# Lecture 2: Advanced SQL
+# Lecture 2: Modern SQL
 
 ## Relational Languages
 - Edgar Codd published major paper on relational models in the early 1970s. He originally only defined
