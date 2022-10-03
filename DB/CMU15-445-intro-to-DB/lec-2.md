@@ -1,6 +1,6 @@
 # Lecture 2: Modern SQL
 
-## Relational Languages
+## 1- Relational Languages
 - Edgar Codd published major paper on relational models in the early 1970s. He originally only defined
 the mathematical notation for how a DBMS could execute queries on a relational model DBMS.
 - User only needs to specify the result that they want using a declarative language (i.e., SQL). The
@@ -9,7 +9,7 @@ DBMS is responsible for determining the most efficient plan to produce that answ
 allows duplicates).
 
 ---
-## SQL History
+## 2- SQL History
 - SQL: Structured Query Language, IBM originally called it “SEQUEL”.
 - Comprised of different classes of commands:
   1. Data Manipulation Language (DML): SELECT, INSERT, UPDATE, DELETE.
@@ -22,7 +22,7 @@ allows duplicates).
 - SQL is not a dead language. It is being updated with new features every couple of years. 
 - **SQL-92** is the minimum that a DBMS has to support in order to claim they support SQL. Each vendor follows the standard to a certain degree but there are many proprietary extensions.
 ---
-## Aggregates
+## 3- Aggregates
 An aggregation function takes in a **bag** of tuples as its input and then produces a single scalar value as its output.
 - AVG(col)→ Return the average col value.
 - MIN(col)→ Return minimum col value.
@@ -76,7 +76,7 @@ GROUP BY e.cid
 HAVING avg_gpa > 3.9;
 ```
 ---
-## String Operations
+## 4- String Operations
 
 - The SQL standard says that strings are case sensitive and single-quotes only.
 - There are functions to manipulate strings that can be used in any part of a query.
@@ -87,11 +87,11 @@ HAVING avg_gpa > 3.9;
 - **Concatenation:** Two vertical bars (“||”) will concatenate two or more strings together into a single string
 - **SUBSTRING()**, **UPPER()**, **LOWER()** ...
 ---
-## DATE/TIME OPERATIONS
+## 5- DATE/TIME OPERATIONS
 its vary between DBMSs
 
 ---
-## Output Redirection
+## 6- Output Redirection
 Instead of having the result a query returned to the client (e.g., terminal), you can tell the DBMS to store the results into another table. You can then access this data in subsequent queries.
 
 - **New Table:** Store the output of the query into a new (permanent) table.
@@ -103,7 +103,7 @@ SELECT DISTINCT cid INTO CourseIds FROM enrolled;
 INSERT INTO CourseIds (SELECT DISTINCT cid FROM enrolled);
 ```
 ---
-## Output Control
+## 7- Output Control
 
 - **ORDER BY:** Since results SQL are unordered, you have to use the `ORDER BY` clause to impose a sort on tuples:
 ```sql
@@ -129,7 +129,7 @@ SELECT sid, name FROM student WHERE login LIKE '%@cs' LIMIT 10 OFFSET 20;
 Unless you use an `ORDER BY` clause with a `LIMIT`, the tuples in the result could be different on each invocation.
 
 ---
-## Nested Queries
+## 8- Nested Queries
 Invoke queries inside of other queries to execute more complex logic within a single query. 
 
 They are often difficult to optimize. 
@@ -163,7 +163,7 @@ SELECT name FROM student WHERE sid IN ( SELECT sid FROM enrolled WHERE cid = '15
   - **IN:** Equivalent to =ANY().
   - **EXISTS:** At least one row is returned
 ---
-## Window Functions
+## 9- Window Functions
 - Performs “moving” calculation across set of tuples. Like an aggregation but it still returns the original tuples.
 
 - Functions: Can be any of the aggregation functions that we discussed above. Can also be a special window functions:

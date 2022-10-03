@@ -2,4 +2,4 @@
 
 
 - I took this course online on [youtube](https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf)
-- [Course Assignments](https://15445.courses.cs.cmu.edu/fall2022/assignments.html) and [my solutions]()
+- [Course Assignments](https://15445.courses.cs.cmu.edu/fall2022/assignments.html) and [my solutions](https://github.com/ahmadateya/courses-assignments/tree/master/cmu-courses/cmu-15-445-645-intro-to-db)
