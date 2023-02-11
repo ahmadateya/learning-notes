@@ -70,12 +70,7 @@ Now the `auth_request` module is ready to be used
 ---
 
 ### Combining multiple access restriction methods
-Multiple access restriction methods can be combined together. For that, they must be both configured and enabled. By default, all configured access restriction methods
-must be satisfied in order to allow the request. If any of the access restriction methods
-are not satisfied, Nginx rejects the request with 403 Forbidden HTTP status.
-This behavior can be changed using the satisfy directive:
-satisfy all | any;
-Specifying satisfy any in a location makes Nginx accept the request if any of the
-enabled access restriction methods are satisfied, while specifying satisfy all (the
-default) makes Nginx accept the request only if all enabled access restriction methods
-are satisfied.
+Multiple access restriction methods can be combined together. For that, they must be both configured and enabled. By default, all configured access restriction methods must be satisfied in order to allow the request. If any of the access restriction methods are not satisfied, Nginx rejects the request with 403 Forbidden HTTP status.
+
+This behavior can be changed using the satisfy directive: satisfy all | any;
+Specifying satisfy any in a location makes Nginx accept the request if any of the enabled access restriction methods are satisfied, while specifying satisfy all (the default) makes Nginx accept the request only if all enabled access restriction methods are satisfied.
