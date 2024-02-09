@@ -7,7 +7,4 @@ So the idea is to write some learning notes to get back to it when you need it, 
 
 this is my notebook for my learning notes on any learning material.
 
-* I write my notes inside the GitHub window to edit the files so the commit messages (most of the time) are meaningless!
 
-## Wishlist
-- start writing some blog posts about things I found useful
